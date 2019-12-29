@@ -2,11 +2,10 @@ package com.weehai.mango.admin.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.weehai.mango.admin.model.User;
-import com.weehai.mango.core.page.PageRequest;
-import com.weehai.mango.core.page.PageResult;
 import com.weehai.mango.core.service.CurdService;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * <p>
@@ -22,5 +21,19 @@ public interface UserService extends IService<User>, CurdService<User> {
      * @retrun
      */
     List<User> findAll();
+
+    /**
+     * 根据用户名查照
+     * @parm name
+     * @return User
+     */
+    User findByName(String name);
+
+    /**
+     * 查找用户的菜单权限标识集合
+     * @param userName
+     * @return
+     */
+    Set<String> findPermissions(String userName);
 
 }
