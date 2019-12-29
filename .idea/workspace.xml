@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44a1905b-0e92-4651-ab0a-b2b9bb607702" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/usr/local/apache-maven-3.6.3/repository" />
+        <option name="mavenHome" value="/usr/local/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="/usr/local/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VazwE3fKCDlIE5Ucend34yHiGF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MangoAdminApplication">
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weehai.mango.common.CommonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="IntelliJ IDEA IU-193.5233.102" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weehai.mango.core.CoreApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="IntelliJ IDEA IU-193.5233.102" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MangoAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weehai.mango.admin.MangoAdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="IntelliJ IDEA IU-193.5233.102" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="IntelliJ IDEA IU-193.5233.102" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44a1905b-0e92-4651-ab0a-b2b9bb607702" name="Default Changelist" comment="" />
+      <created>1577506229588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577506229588</updated>
+      <workItem from="1577506231139" duration="110000" />
+      <workItem from="1577506369689" duration="6047000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="87" key="#Project_Structure" timestamp="1577592075919">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="320" y="87" key="#Project_Structure/0.23.1440.797@0.23.1440.797" timestamp="1577592075919" />
+    <state x="533" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1577595461203">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="533" y="138" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1577595461203" />
+    <state x="258" y="83" key="Maven.ArtifactSearchDialog" timestamp="1577592234231">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="258" y="83" key="Maven.ArtifactSearchDialog/0.23.1440.797@0.23.1440.797" timestamp="1577592234231" />
+    <state x="221" y="60" key="SettingsEditor" timestamp="1577592056249">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1577592056249" />
+  </component>
+</project>
