@@ -1,5 +1,7 @@
 package com.weehai.mango.admin.config;
 
+import com.weehai.mango.admin.security.JwtAuthenticationFilter;
+import com.weehai.mango.admin.security.JwtAuthenticationProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -50,7 +52,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated();
 
         http.logout().logoutSuccessHandler(new HttpStatusReturningLogoutSuccessHandler());
-        http.addFilterBefore(new JwtAuthenticationManager(authenticationManager()), UsernamePasswordAuthenticationFilter.class);
+        http.addFilterBefore(new JwtAuthenticationFilter(authenticationManager()), UsernamePasswordAuthenticationFilter.class);
     }
 
     @Bean

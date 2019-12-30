@@ -4,15 +4,8 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.weehai.mango.core.service.CurdService;
 import org.apache.poi.ss.formula.functions.T;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.ReflectionUtils;
 
-import java.io.Serializable;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 /**
  * @author 卢水柏
@@ -61,4 +54,10 @@ import java.util.Map;
     }
 
 
+    public static<T> T findByName(String name, Class T, BaseMapper mapper) {
+        QueryWrapper<T> wrapper = new QueryWrapper<>();
+        wrapper.eq("name",name);
+        T t= (T)mapper.selectOne(wrapper);
+        return t;
+    }
 }

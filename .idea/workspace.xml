@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a1905b-0e92-4651-ab0a-b2b9bb607702" name="Default Changelist" comment="" />
+    <list default="true" id="44a1905b-0e92-4651-ab0a-b2b9bb607702" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/security/GrantedAuthorityImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/security/JwtAuthenticatioToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/security/JwtAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/security/JwtUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/util/JwtTokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/util/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/util/PasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/util/SecurityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mango-core/src/main/java/com/weehai/mango/core/page/MyBatisPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mango-core/src/main/java/com/weehai/mango/core/page/MyBatisPageHelper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,19 +69,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/util" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/util" />
+      <recent name="$PROJECT_DIR$/mango-admin/src/main/java/com/weehai/mango/admin/security" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -129,7 +156,12 @@
       <option name="presentableId" value="Default" />
       <updated>1577506229588</updated>
       <workItem from="1577506231139" duration="110000" />
+<<<<<<< HEAD
       <workItem from="1577506369689" duration="6325000" />
+=======
+      <workItem from="1577506369689" duration="6047000" />
+      <workItem from="1577628763706" duration="6861000" />
+>>>>>>> 0fe99a82358bcc193c6673ac2006d4f555eacde3
     </task>
     <servers />
   </component>
@@ -137,21 +169,59 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="87" key="#Project_Structure" timestamp="1577592075919">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="427" y="87" key="#Project_Structure" timestamp="1577628847167">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="427" y="87" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1577628847167" />
     <state x="320" y="87" key="#Project_Structure/0.23.1440.797@0.23.1440.797" timestamp="1577592075919" />
-    <state x="533" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1577595461203">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="698" y="272" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1577634999476">
+      <screen x="0" y="23" width="1920" height="974" />
+    </state>
+    <state x="698" y="272" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1920.974@0.23.1920.974" timestamp="1577634999476" />
+    <state x="711" y="164" key="#com.intellij.ide.util.MemberChooser" timestamp="1577635391958">
+      <screen x="0" y="23" width="1920" height="974" />
     </state>
     <state x="533" y="138" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1577595461203" />
-    <state x="258" y="83" key="Maven.ArtifactSearchDialog" timestamp="1577592234231">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="711" y="164" key="#com.intellij.ide.util.MemberChooser/0.23.1920.974@0.23.1920.974" timestamp="1577635391958" />
+    <state width="1878" height="262" key="GridCell.Tab.0.bottom" timestamp="1577635988791">
+      <screen x="0" y="23" width="1920" height="974" />
+    </state>
+    <state width="1878" height="262" key="GridCell.Tab.0.bottom/0.23.1920.974@0.23.1920.974" timestamp="1577635988791" />
+    <state width="1878" height="262" key="GridCell.Tab.0.center" timestamp="1577635988790">
+      <screen x="0" y="23" width="1920" height="974" />
+    </state>
+    <state width="1878" height="262" key="GridCell.Tab.0.center/0.23.1920.974@0.23.1920.974" timestamp="1577635988790" />
+    <state width="1878" height="262" key="GridCell.Tab.0.left" timestamp="1577635988790">
+      <screen x="0" y="23" width="1920" height="974" />
+    </state>
+    <state width="1878" height="262" key="GridCell.Tab.0.left/0.23.1920.974@0.23.1920.974" timestamp="1577635988790" />
+    <state width="1878" height="262" key="GridCell.Tab.0.right" timestamp="1577635988790">
+      <screen x="0" y="23" width="1920" height="974" />
+    </state>
+    <state width="1878" height="262" key="GridCell.Tab.0.right/0.23.1920.974@0.23.1920.974" timestamp="1577635988790" />
+    <state x="344" y="96" key="Maven.ArtifactSearchDialog" timestamp="1577632776683">
+      <screen x="0" y="23" width="1920" height="974" />
     </state>
     <state x="258" y="83" key="Maven.ArtifactSearchDialog/0.23.1440.797@0.23.1440.797" timestamp="1577592234231" />
-    <state x="221" y="60" key="SettingsEditor" timestamp="1577592056249">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="344" y="96" key="Maven.ArtifactSearchDialog/0.23.1920.974@0.23.1920.974" timestamp="1577632776683" />
+    <state x="295" y="68" key="SettingsEditor" timestamp="1577635680564">
+      <screen x="0" y="23" width="1920" height="974" />
     </state>
+    <state x="295" y="50" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1577629180023" />
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1577592056249" />
+    <state x="295" y="68" key="SettingsEditor/0.23.1920.974@0.23.1920.974" timestamp="1577635680564" />
+    <state x="639" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1577628765138">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="639" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577628765138" />
+    <state x="552" y="105" width="816" height="810" key="find.popup" timestamp="1577630400953">
+      <screen x="0" y="23" width="1920" height="974" />
+    </state>
+    <state x="552" y="105" width="816" height="810" key="find.popup/0.23.1920.974@0.23.1920.974" timestamp="1577630400953" />
+    <state x="625" y="253" width="670" height="609" key="run.anything.popup" timestamp="1577629267916">
+      <screen x="0" y="23" width="1920" height="974" />
+    </state>
+    <state x="625" y="255" width="670" height="675" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1577628859990" />
+    <state x="625" y="253" width="670" height="609" key="run.anything.popup/0.23.1920.974@0.23.1920.974" timestamp="1577629267916" />
   </component>
 </project>
