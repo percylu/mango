@@ -18,5 +18,21 @@
     <sql id="Base_Column_List">
         id, name, remark, create_by, create_time, last_update_by, last_update_time, del_flag
     </sql>
-
+    <select id="findAll" resultMap="BaseResultMap">
+    	select
+    		<include refid="Base_Column_List"></include>
+    	from sys_role
+    </select>
+    
+    <select id="findRoleById" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    	select
+    		<include refid="Base_Column_List"></include>
+    	from sys_role where id=#{Id,jdbcType=BIGINT}
+    </select>
+    
+    <select id="findRoleByUserId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+       select
+       r.*
+       from sys_role r  left join sys_user_role ur on r.id=ur.role_id where ur.user_id=#{userId,jdbcType=BIGINT} 
+    </select>
 </mapper>

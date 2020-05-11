@@ -9,6 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @company WeeHai
  * @date 2019/12/25 1:21 上午
  **/
+@SuppressWarnings("deprecation")
 @Configuration
 public class CorsConfig implements WebMvcConfigurer {
     @Override
@@ -20,4 +21,5 @@ public class CorsConfig implements WebMvcConfigurer {
                 .allowedHeaders("*")
                 .allowCredentials(true);
     }
+
 }

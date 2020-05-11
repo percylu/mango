@@ -4,6 +4,9 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.time.LocalDateTime;
+
+import javax.validation.constraints.NotNull;
+
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -15,7 +18,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author 卢水柏
- * @since 2019-12-23
+ * @since 2020-03-23
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -23,7 +26,7 @@ import lombok.experimental.Accessors;
 @TableName("sys_menu")
 public class Menu implements Serializable {
 
-    private static final long serialVersionUID=1L;
+    private static final long serialVersionUID = 1L;
 
     /**
      * 编号
@@ -44,7 +47,15 @@ public class Menu implements Serializable {
     /**
      * 菜单URL,类型：1.普通页面（如用户管理， /sys/user） 2.嵌套完整外部页面，以http(s)开头的链接 3.嵌套服务器页面，使用iframe:前缀+目标URL(如SQL监控， iframe:/druid/login.html, iframe:前缀会替换成服务器地址)
      */
-    private String url;
+    private String path;
+
+    private String component;
+
+    private String redirect;
+    @NotNull
+    private Integer isMenu;
+
+    private String title;
 
     /**
      * 授权(多个用逗号分隔，如：sys:user:add,sys:user:edit)

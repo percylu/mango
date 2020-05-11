@@ -13,7 +13,7 @@
     <version>1.0.0</version>
     <name>mango-common</name>
     <description>mango common moudle</description>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <properties>
         <java.version>1.8</java.version>
     </properties>

@@ -1,13 +1,26 @@
 server:
   port: 8001
+
 spring:
+  application:
+    name: mango-admin
+  resources:
+    add-mappings: false
+  
+
+  #出现错误时, 直接抛出异常
+  mvc:
+     throw-exception-if-no-handler-found: true
+   #关闭工程中的资源文件建立映射
+   
   datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
     name: druidDataSource
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/mango?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=utf-8
+      url: jdbc:mysql://123.207.51.155:3307/mango?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=utf-8
+            &&allowMultiQueries=true
       username: root
       password: Lu137849s
       max-active: 100
@@ -22,6 +35,22 @@ spring:
       pool-prepared-statements: true
       max-open-prepared-statements: 50
       filters: stat,wall,log4j,config
+
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
 mybatis-plus:
   mapper-locations: classpath:com/weehai/mango/admin/sqlmap/**Mapper.xml
   global-config:
@@ -29,8 +58,7 @@ mybatis-plus:
       id-type: auto
       field-strategy: not_empty
       #驼峰下划线转换
-      column-underline: true
-      #逻辑删除配置
+      column-underline: trueƒ
       logic-delete-value: 0
       logic-not-delete-value: 1
       db-type: mysql
@@ -45,3 +73,5 @@ logging:
     com.weehai.mango.dao: trace
   pattern:
     console: "%p%m%n"
+    
+       

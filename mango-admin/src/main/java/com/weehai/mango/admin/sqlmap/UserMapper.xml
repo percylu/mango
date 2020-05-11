@@ -31,4 +31,10 @@
         from sys_user
     </select>
 
+    <select id="findByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select 
+         <include refid="Base_Column_List"></include>
+        from sys_user
+  		where name = #{userName,jdbcType=BIGINT} 
+    </select>
 </mapper>

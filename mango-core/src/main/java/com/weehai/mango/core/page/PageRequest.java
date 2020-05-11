@@ -24,7 +24,11 @@ public class PageRequest {
      */
     private Map<String,Object> params=new HashMap<>();
 
-    public int getPageNum() {
+    public void setPageNum(int pageNum) {
+		this.pageNum = pageNum;
+	}
+
+	public int getPageNum() {
         return pageNum;
     }
 

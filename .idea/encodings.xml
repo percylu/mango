@@ -2,9 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/mango-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mango-backup/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mango-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mango-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mango-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mango-monitor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mango-pom/src/main/resources" charset="UTF-8" />
   </component>
 </project>

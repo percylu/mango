@@ -1,9 +1,14 @@
 package com.weehai.mango.admin.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.weehai.mango.admin.model.Menu;
 import com.weehai.mango.admin.model.User;
 
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.apache.ibatis.annotations.Param;
 
 /**
  * <p>
@@ -19,6 +24,12 @@ public interface UserMapper extends BaseMapper<User>{
      * @return
      */
     List<User>findAll();
+    /**
+     * 查找当前用户
+     * @param <V>
+     * @return
+     */
+     User findByName(@Param(value="userName") String userName);
 
 
 }
